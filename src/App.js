@@ -15,10 +15,13 @@ function App() {
 
   let buildingAmionAcid = ''
   const addLetterToBuildingCodon = (e) => {
-    buildingAmionAcid += e.target.value
-    if (buildingAmionAcid.length === 3) {
-      addToAminoAcidChain(buildingAmionAcid)
-      buildingAmionAcid = ''
+    const lastCodon = aminoAcidChain[aminoAcidChain.length-1]
+    if (lastCodon !== 'UAA' && lastCodon !== 'UAG' && lastCodon !== 'UGA') {
+      buildingAmionAcid += e.target.value
+      if (buildingAmionAcid.length === 3) {
+        addToAminoAcidChain(buildingAmionAcid)
+        buildingAmionAcid = ''
+      }
     }
   }
 

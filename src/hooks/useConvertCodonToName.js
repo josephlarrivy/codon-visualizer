@@ -5,8 +5,8 @@ const useConvertCodonToName = () => {
   const getAminoAcid = (codon) => {
 
     const codonAminoAcid = {
-      'UUU': 'Phenylalanine',
-      'UUC': 'Phenylalanine',
+      'UUU': 'Phenyl- alanine',
+      'UUC': 'Phenyl- alanine',
       'UUA': 'Leucine',
       'UUG': 'Leucine',
       'CUU': 'Leucine',

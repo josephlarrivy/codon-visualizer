@@ -1,3 +1,37 @@
 #form-area {
-    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.instructions {
+    width: 80%;
+    margin-left: 10%;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+#button-U {
+    background-color: #32936F;
+}
+
+#button-C {
+    background-color: #E83F6F;
+}
+
+#button-A {
+    background-color: #FFBF00;
+}
+
+#button-G {
+    background-color: #2274A5;
 }

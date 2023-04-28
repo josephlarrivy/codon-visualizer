@@ -1,0 +1,9 @@
+#amino-acid-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#amino-acid-area p {
+    margin-top: 2px;
+    margin-right: 10px;
+}

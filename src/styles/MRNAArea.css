@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     /* background-color: aqua; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #mrna-rail {
@@ -28,10 +28,24 @@
 .sphere {
     width: 80px;
     height: 80px;
-    background-color: blue;
+    background-color: white;
+    border: 4px solid black;
     border-radius: 50%;
     position: absolute;
     margin-top: 100px;
+    animation-name: moveSphere;
+    animation-duration: 2s;
+}
+
+.sphere-off {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    font-weight: 900;
     animation-name: moveSphere;
     animation-duration: 2s;
 }
@@ -50,4 +64,12 @@
     100% {
         margin-top: 100px;
     }
+}
+
+.amino-acid-name-label {
+    font-size: small;
+    text-align: center;
+    margin-top: 30%;
+    width: 80%;
+    margin-left: 10%;
 }
