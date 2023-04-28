@@ -1,0 +1,204 @@
+
+.spike-A {
+    width: 20px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    animation-name: moveSpikeU;
+    animation-duration: 2s;
+}
+
+.letter-A {
+    height: 10px;
+}
+
+.spike-A-space {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    animation-name: moveSpikeAspace;
+    animation-duration: 2s;
+}
+
+@keyframes moveSpikeAspace {
+    0% {
+        height: 220px;
+    }
+
+    25% {
+        height: 220px;
+    }
+
+    100% {
+        height: 5px;
+    }
+}
+
+@keyframes moveSpikeA {
+    0% {
+        height: 320px;
+    }
+
+    25% {
+        height: 320px;
+    }
+
+    100% {
+        height: 120px;
+    }
+}
+
+.spike-C {
+    width: 20px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    animation-name: moveSpikeC;
+    animation-duration: 2s;
+}
+
+.letter-C {
+    height: 20px;
+}
+
+.spike-C-space {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    animation-name: moveSpikeCspace;
+    animation-duration: 2s;
+}
+
+@keyframes moveSpikeCspace {
+    0% {
+        height: 220px;
+    }
+
+    25% {
+        height: 220px;
+    }
+
+    100% {
+        height: 5px;
+    }
+}
+
+@keyframes moveSpikeC {
+    0% {
+        height: 320px;
+    }
+
+    25% {
+        height: 320px;
+    }
+
+    100% {
+        height: 120px;
+    }
+}
+
+.spike-G {
+    width: 20px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    animation-name: moveSpikeG;
+    animation-duration: 2s;
+}
+
+.letter-G {
+    height: 30px;
+}
+
+.spike-G-space {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    animation-name: moveSpikeGspace;
+    animation-duration: 2s;
+}
+
+@keyframes moveSpikeGspace {
+    0% {
+        height: 220px;
+    }
+
+    25% {
+        height: 220px;
+    }
+
+    100% {
+        height: 5px;
+    }
+}
+
+@keyframes moveSpikeG {
+    0% {
+        height: 320px;
+    }
+
+    25% {
+        height: 320px;
+    }
+
+    100% {
+        height: 120px;
+    }
+}
+
+.spike-U {
+    width: 20px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    animation-name: moveSpikeU;
+    animation-duration: 2s;
+}
+
+.letter-U {
+    height: 40px;
+}
+
+.spike-U-space {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    animation-name: moveSpikeUspace;
+    animation-duration: 2s;
+}
+
+@keyframes moveSpikeUspace {
+    0% {
+        height: 220px;
+    }
+
+    25% {
+        height: 220px;
+    }
+
+    100% {
+        height: 5px;
+    }
+}
+
+@keyframes moveSpikeU {
+    0% {
+        height: 320px;
+    }
+
+    25% {
+        height: 320px;
+    }
+
+    100% {
+        height: 120px;
+    }
+}

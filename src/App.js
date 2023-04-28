@@ -11,12 +11,11 @@ import './styles/App.css'
 function App() {
 
   const [getAminoAcid] = useConvertCodonToName();
-  const [aminoAcidChain,  setAminoAcidChain] = useState([])
+  const [aminoAcidChain,  setAminoAcidChain] = useState(['AUG'])
 
   let buildingAmionAcid = ''
   const addLetterToBuildingCodon = (e) => {
     buildingAmionAcid += e.target.value
-
     if (buildingAmionAcid.length === 3) {
       addToAminoAcidChain(buildingAmionAcid)
       buildingAmionAcid = ''
