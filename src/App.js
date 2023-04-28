@@ -44,7 +44,10 @@ function App() {
       </div>
       <div id="amino-acid-area-container">
         <AminoAcidArea />
-      </div>  
+      </div>
+      <div id="footer">
+        <p>Written and maintained by <a target='_blank' href="http://www.josephlarrivy.com">www.josephlarrivy.com</a></p>
+      </div>
     </div>
   );
 }
