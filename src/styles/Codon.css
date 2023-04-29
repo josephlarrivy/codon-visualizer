@@ -5,7 +5,7 @@
     text-align: center;
     background-color: #FFBF00;
     color: white;
-    animation-name: moveSpikeU;
+    animation-name: moveSpikeA;
     animation-duration: 2s;
 }
 
@@ -24,11 +24,11 @@
 
 @keyframes moveSpikeAspace {
     0% {
-        height: 220px;
+        height: 120px;
     }
 
     25% {
-        height: 220px;
+        height: 120px;
     }
 
     100% {
@@ -38,11 +38,11 @@
 
 @keyframes moveSpikeA {
     0% {
-        height: 320px;
+        height: 220px;
     }
 
     25% {
-        height: 320px;
+        height: 220px;
     }
 
     100% {
@@ -75,11 +75,11 @@
 
 @keyframes moveSpikeCspace {
     0% {
-        height: 220px;
+        height: 120px;
     }
 
     25% {
-        height: 220px;
+        height: 120px;
     }
 
     100% {
@@ -89,11 +89,11 @@
 
 @keyframes moveSpikeC {
     0% {
-        height: 320px;
+        height: 220px;
     }
 
     25% {
-        height: 320px;
+        height: 220px;
     }
 
     100% {
@@ -126,11 +126,11 @@
 
 @keyframes moveSpikeGspace {
     0% {
-        height: 220px;
+        height: 120px;
     }
 
     25% {
-        height: 220px;
+        height: 120px;
     }
 
     100% {
@@ -140,11 +140,11 @@
 
 @keyframes moveSpikeG {
     0% {
-        height: 320px;
+        height: 220px;
     }
 
     25% {
-        height: 320px;
+        height: 220px;
     }
 
     100% {
@@ -177,11 +177,11 @@
 
 @keyframes moveSpikeUspace {
     0% {
-        height: 220px;
+        height: 120px;
     }
 
     25% {
-        height: 220px;
+        height: 120px;
     }
 
     100% {
@@ -191,11 +191,11 @@
 
 @keyframes moveSpikeU {
     0% {
-        height: 320px;
+        height: 220px;
     }
 
     25% {
-        height: 320px;
+        height: 220px;
     }
 
     100% {
